@@ -15,16 +15,14 @@
 })(document);
 
 
-// const body = document.body;
-// const menu = document.getElementById('menu');
 
-document.getElementById('submit-form').addEventListener('click', msg);
+document.getElementById('form').addEventListener('submit', msg);
 document.getElementById('msg-form-button').addEventListener('click', msg);
+function msg(e) {
 
-
-function msg() {
     e.preventDefault();
     document.body.classList.toggle('show-msg');
+
     // this.reset();
     // 
 }
