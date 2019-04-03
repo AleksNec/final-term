@@ -1,0 +1,30 @@
+form {
+    
+    
+    
+    
+    input,  textarea{
+        width: 100%;
+        padding: 12px;
+        border: 1px solid rgb(192, 192, 192);
+        border-radius: 5px;
+        box-sizing: border-box;
+        margin: 5px 0 15px 0;
+
+    }
+    .student-stat{
+        input{
+            width: auto;
+        }
+        
+    }
+    textarea{
+        min-height: 300px;
+        resize: vertical;
+        font-size: 14px;
+    }
+   
+
+}
+
+

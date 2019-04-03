@@ -1,0 +1,16 @@
+// Body Styles
+body {
+
+    font-family: 'Open Sans', sans-serif;
+    background-image: url(/images/bcit-background.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+
+    @media screen and (max-width: 960px){
+        background-image: none;
+    }
+
+
+
+}
+

@@ -1,0 +1,30 @@
+
+.msg-form{
+    display: none;
+    width: 320px;
+    height: 150px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.747);
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: justify;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.msg-form-button{
+    color: grey;
+    background-color: transparent;
+    border-radius: 5px;
+    border: 1px solid grey;
+
+    
+}
+
+.show-msg .msg-form{
+    display:block;
+}
